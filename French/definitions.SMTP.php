@@ -4,9 +4,9 @@
 
 // English Definitions for the SMTP plugin.
 
-$definitions["Server"] = "Server";
+$definitions["Server"] = "Serveur";
 $definitions["Port"] = "Port";
-$definitions["Authentication"] = "Authentication";
+$definitions["Authentication"] = "Authentification";
 $definitions["Normal"] = "Normal";
 $definitions["TLS"] = "TLS";
 $definitions["SSL"] = "SSL";
