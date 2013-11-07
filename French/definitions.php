@@ -8,8 +8,8 @@ ET::$languageInfo["Francais"] = array(
 	"description" => "Un pack de langue Français.",
 	"version" => ESOTALK_VERSION,
 	"author" => "West Indie Collective",
-	"authorEmail" => "contact@westindiecollective.org",
-	"authorURL" => "http://westindiecollective.org",
+	"authorEmail" => "westindiecollective@gmail.com",
+	"authorURL" => "http://forum.westindiecollective.org",
 	"license" => "GPLv2"
 );
 
