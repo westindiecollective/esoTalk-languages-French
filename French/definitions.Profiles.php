@@ -4,6 +4,6 @@
 
 // English Definitions for the Profiles plugin.
 
-$definitions["About"] = "About";
-$definitions["Location"] = "Location";
-$definitions["Write something about yourself."] = "Write something about yourself.";
+$definitions["About"] = "À propos";
+$definitions["Location"] = "Lieu";
+$definitions["Write something about yourself."] = "Écrivez quelque chose sur vous.";
