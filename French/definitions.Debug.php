@@ -4,7 +4,7 @@
 
 // English Definitions for the Debug plugin.
 
-$definitions["MySQL queries"] = "Requêtes MySQL";
-$definitions["Page loaded in %s seconds"] = "Page chargée en %s secondes";
-$definitions["POST + GET + FILES information"] = "information POST + GET + FILES";
-$definitions["SESSION + COOKIE information"] = "information SESSION + COOKIE";
+$definitions["MySQL queries"] = "Requï¿½tes MySQL";
+$definitions["Page loaded in %s seconds"] = "Page chargÃ©e en %s secondes";
+$definitions["POST + GET + FILES information"] = "informations POST + GET + FILES";
+$definitions["SESSION + COOKIE information"] = "informations SESSION + COOKIE";
