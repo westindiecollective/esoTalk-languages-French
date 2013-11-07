@@ -7,5 +7,5 @@
 $definitions["Unlike"] = "Je n'aime plus";
 $definitions["Like"] = "J'aime";
 $definitions["Members Who Liked This Post"] = "Membres Qui Aiment Ce Post";
-$definitions["%s likes this."] = "%s aime(nt) ça.";
-$definitions["%s like this."] = "%s aime(nt) ça.";
+$definitions["%s likes this."] = "%s aime Ã§a.";
+$definitions["%s like this."] = "%s aiment Ã§a.";
