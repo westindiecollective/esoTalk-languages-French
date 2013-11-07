@@ -2,14 +2,14 @@
 // Copyright 2011 Toby Zerner, Simon Zerner
 // This file is part of esoTalk. Please see the included license file for usage information.
 
-ET::$languageInfo["English"] = array(
-	"locale" => "en-US",
-	"name" => "English",
-	"description" => "A casual English language pack.",
+ET::$languageInfo["Francais"] = array(
+	"locale" => "fr-FR",
+	"name" => "Français",
+	"description" => "Un pack de langue Français.",
 	"version" => ESOTALK_VERSION,
-	"author" => "esoTalk Team",
-	"authorEmail" => "support@esotalk.org",
-	"authorURL" => "http://esotalk.org",
+	"author" => "West Indie Collective",
+	"authorEmail" => "contact@westindiecollective.org",
+	"authorURL" => "http://westindiecollective.org",
 	"license" => "GPLv2"
 );
 
