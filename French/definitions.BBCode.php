@@ -6,8 +6,8 @@
 
 $definitions["Code"] = "Code";
 $definitions["Image"] = "Image";
-$definitions["Link"] = "Link";
-$definitions["Strike"] = "Strike";
-$definitions["Header"] = "Header";
-$definitions["Italic"] = "Italic";
-$definitions["Bold"] = "Bold";
+$definitions["Link"] = "Lien";
+$definitions["Strike"] = "Barré";
+$definitions["Header"] = "En-tête";
+$definitions["Italic"] = "Italique";
+$definitions["Bold"] = "Gras";
