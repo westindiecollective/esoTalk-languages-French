@@ -2,8 +2,8 @@
 // Copyright 2013 Toby Zerner, Simon Zerner
 // This file is part of esoTalk. Please see the included license file for usage information.
 
-// English Definitions for the Answers plugin.
+// French Definitions for the Answers plugin.
 
-$definitions["Attach a file"] = "Attach a file";
-$definitions["Drop files to upload"] = "Drop files to upload";
-$definitions["message.attachmentNotFound"] = "For some reason this attachment cannot be viewed. It may not exist, or you may not have permission to view it.";
+$definitions["Attach a file"] = "Attacher un ficher";
+$definitions["Drop files to upload"] = "Déposez des fichiers pour uploader";
+$definitions["message.attachmentNotFound"] = "Pour une raison ou une autre cette pièce jointe ne peut pas être visionné. Il pourrait ne pas exister, ou alors vous n'avez pas les droits nécessaires pour y accéder.";
