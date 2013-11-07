@@ -18,20 +18,20 @@ $definitions["charset"] = "utf-8";
 
 $definitions["date.full"] = "j M Y, g:ia \G\M\TO"; // see http://au.php.net/manual/en/function.date.php for details
 
-$definitions["%d day ago"] = "yesterday";
-$definitions["%d days ago"] = "%d days ago";
-$definitions["%d hour ago"] = "1 hour ago";
-$definitions["%d hours ago"] = "%d hours ago";
-$definitions["%d minute ago"] = "1 minute ago";
-$definitions["%d minutes ago"] = "%d minutes ago";
-$definitions["%d month ago"] = "1 month ago";
-$definitions["%d months ago"] = "%d months ago";
-$definitions["%d second ago"] = "1 second ago";
-$definitions["%d seconds ago"] = "%d seconds ago";
-$definitions["%d week ago"] = "last week";
-$definitions["%d weeks ago"] = "%d weeks ago";
-$definitions["%d year ago"] = "last year";
-$definitions["%d years ago"] = "%d years ago";
+$definitions["%d day ago"] = "hier";
+$definitions["%d days ago"] = "il y a %d jours";
+$definitions["%d hour ago"] = "il y a 1 heure";
+$definitions["%d hours ago"] = "il y a %d heures";
+$definitions["%d minute ago"] = "il y a 1 minute";
+$definitions["%d minutes ago"] = "il y a %d mintues";
+$definitions["%d month ago"] = "il y a 1 mois";
+$definitions["%d months ago"] = "il y a %d mois";
+$definitions["%d second ago"] = "il y a 1 seconde";
+$definitions["%d seconds ago"] = "il y a %d secondes";
+$definitions["%d week ago"] = "la semaine dernière";
+$definitions["%d weeks ago"] = "il y a %d semaines";
+$definitions["%d year ago"] = "l'année dernière";
+$definitions["%d years ago"] = "il y a %d ans";
 
 $definitions["%s and %s"] = "%s and %s";
 $definitions["%s can view this conversation."] = "%s can view this conversation.";
