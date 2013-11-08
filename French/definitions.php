@@ -386,12 +386,12 @@ $definitions["Your current password"] = "Your current password";
 
 
 // Messages.
-$definitions["message.404"] = "Oh dear - the page you requested could not be found! Try going back and clicking a different link. Or something else.";
-$definitions["message.ajaxDisconnected"] = "Unable to communicate with the server. Wait a few seconds and <a href='javascript:jQuery.ETAjax.resumeAfterDisconnection()'>try again</a>, or <a href='' onclick='window.location.reload();return false'>refresh the page</a>.";
-$definitions["message.ajaxRequestPending"] = "Hey! We're still processing some of your stuff! If you navigate away from this page you might lose any recent changes you've made, so wait a few seconds, ok?";
+$definitions["message.404"] = "Mince alors - la page que vous avez demandé n'a pas pu être trouvée! Essayez de retourner en arrière et de cliquer sur un autre lien. Ou autre chose.";
+$definitions["message.ajaxDisconnected"] = "Incapable de communiquer avec le serveur. Attendez quelques secondes et <a href='javascript:jQuery.ETAjax.resumeAfterDisconnection()'>essayez encore</a>, ou <a href='' onclick='window.location.reload();return false'>actualisez la page</a>.";
+$definitions["message.ajaxRequestPending"] = "Hey! On est toujours en train de traiter certaines de vos données! Si vous changez de page vous pourriez perdre vos changements récents. Attendez donc quelques secondes, d'accord?";
 $definitions["message.avatarError"] = "There was a problem uploading your avatar. Make sure you're using a valid image type (like .jpg, .png, or .gif) and the file isn't really really huge.";
-$definitions["message.cannotDeleteLastChannel"] = "Hey, wait up, you can't delete the last channel! Where would your conversations go? That's just silly.";
-$definitions["message.changesSaved"] = "Your changes were saved.";
+$definitions["message.cannotDeleteLastChannel"] = "Hey, mais attendez, vous ne pouvez pas supprimer le dernier canal! Où iraient vos conversations? C'est juste bête.";
+$definitions["message.changesSaved"] = "Vos changements ont été sauvegardés.";
 $definitions["message.channelsHelp"] = "Channels are used to categorize conversations on your forum. You can create as many channels as needed, and rearrange/nest them by dragging and dropping below.";
 $definitions["message.channelSlugTaken"] = "This slug is already in use by another channel.";
 $definitions["message.confirmDelete"] = "Are you sure you want to delete this? Seriously, you won't be able to get it back.";
