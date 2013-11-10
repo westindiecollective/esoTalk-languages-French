@@ -73,16 +73,16 @@ $definitions["Appearance"] = "Apparence";
 $definitions["Automatically star conversations that I reply to"] = "Suivre automatiquement une conversation à laquelle je réponds";
 $definitions["Avatar"] = "Avatar";
 
-$definitions["Back to channels"] = "Back to channels";
-$definitions["Back to conversation"] = "Back to conversation";
-$definitions["Back to member"] = "Back to member";
-$definitions["Back to members"] = "Back to members";
-$definitions["Back to search"] = "Back to search";
-$definitions["Background color"] = "Background color";
-$definitions["Background image"] = "Background image";
+$definitions["Back to channels"] = "Retour aux catégories";
+$definitions["Back to conversation"] = "Retour à la conversation";
+$definitions["Back to member"] = "Retour à la page membre";
+$definitions["Back to members"] = "Retour à la liste des membres";
+$definitions["Back to search"] = "Retour à la recherche";
+$definitions["Background color"] = "Couleur d'arrière-plan";
+$definitions["Background image"] = "Image d'arrière-plan";
 $definitions["Base URL"] = "Base URL";
-$definitions["Bold"] = "Bold";
-$definitions["By %s"] = "By %s";
+$definitions["Bold"] = "Gras";
+$definitions["By %s"] = "Par %s";
 
 $definitions["Can suspend/unsuspend members"] = "Can suspend/unsuspend members";
 $definitions["Cancel"] = "Cancel";
