@@ -6,4 +6,4 @@
 
 $definitions["Attach a file"] = "Attacher un ficher";
 $definitions["Drop files to upload"] = "Déposez des fichiers pour uploader";
-$definitions["message.attachmentNotFound"] = "Pour une raison ou une autre cette pièce jointe ne peut pas être visionné. Il pourrait ne pas exister, ou alors vous n'avez pas les droits nécessaires pour y accéder.";
+$definitions["message.attachmentNotFound"] = "Pour une raison ou une autre cette pièce jointe ne peut pas être visionnée. Elle pourrait ne pas exister, ou alors vous n'avez pas les droits nécessaires pour y accéder.";
