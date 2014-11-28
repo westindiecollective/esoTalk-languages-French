@@ -20,6 +20,7 @@ $definitions["date.full"] = "j M Y, g:ia \G\M\TO"; // see http://au.php.net/manu
 
 $definitions["%d day ago"] = "hier";
 $definitions["%d days ago"] = "il y a %d jours";
+$definitions["%d hidden"]  = "%d hidden";
 $definitions["%d hour ago"] = "il y a 1 heure";
 $definitions["%d hours ago"] = "il y a %d heures";
 $definitions["%d minute ago"] = "il y a 1 minute";
@@ -39,6 +40,7 @@ $definitions["%s changed %s's group to %s."] = "%s a changé le groupe de %s en 
 $definitions["%s changed your group to %s."] = "%s a changé votre groupe en %s.";
 $definitions["%s conversation"] = "conversation %s";
 $definitions["%s conversations"] = "conversations %s conversation";
+$definitions["%s has registered and is awaiting approval."] = "%s has registered and is awaiting approval.";
 $definitions["%s invited you to %s."] = "%s vous a invité à %s.";
 $definitions["%s joined the forum."] = "%s a rejoint le forum.";
 $definitions["%s post"] = "post %s";
@@ -53,9 +55,10 @@ $definitions["%s tagged you in a post."] = "%s vous a mentionné dans un post.";
 $definitions["%s will be able to view this conversation."] = "%s pourra voir cette conversation.";
 $definitions["%s will be able to:"] = "%s pourra :";
 
-$definitions["Success!"] = "Réussi&thinsp;!";
 $definitions["A new version of esoTalk (%s) is available."] = "Une nouvelle version de esoTalk (%s) est disponible.";
 $definitions["a private conversation"] = "une conversation privée";
+$definitions["Automatically follow conversations that I reply to"] = "Automatically follow conversations that I reply to";
+$definitions["Automatically follow private conversations that I'm added to"] = "Automatically follow private conversations that I'm added to";
 $definitions["Access the administrator control panel."] = "Accéder au panneau d'administration.";
 $definitions["Account type"] = "Type de compte";
 $definitions["Activate"] = "Activer";
@@ -70,6 +73,7 @@ $definitions["All Channels"] = "Toutes les Catégories";
 $definitions["Allow members to edit their own posts:"] = "Autoriser les membres à éditer leurs propres posts :";
 $definitions["Already have an account? <a href='%s' class='link-login'>Log in!</a>"] = "Déjà enregistré ? <a href='%s' class='link-login'>Connectez-vous !</a>";
 $definitions["Appearance"] = "Apparence";
+$definitions["Approve"] = "Approuver";
 $definitions["Automatically star conversations that I reply to"] = "Suivre automatiquement une conversation à laquelle je réponds";
 $definitions["Avatar"] = "Avatar";
 
@@ -101,12 +105,12 @@ $definitions["Channel List"] = "Liste des catégories";
 $definitions["Channel title"] = "Titre de la catégorie";
 $definitions["Channel slug"] = "Slug de la catégorie";
 $definitions["Channels"] = "Catégories";
+$definitions["Choose a Channel"] = "Choisir une catégorie";
 $definitions["Choose a secure password of at least %s characters"] = "Choisir un mot de passe sécurisé d'au moins %s caractères.";
 $definitions["Choose what people will see when they first visit your forum."] = "Choisir ce que les gens verront en premier lorsqu'ils visiteront le forum.";
 $definitions["Click on a member's name to remove them."] = "Cliquez sur le nom d'un membre pour l'enlever.";
 $definitions["Close registration"] = "Fermer les inscriptions";
 $definitions["Confirm password"] = "Confirmer le mot de passe";
-$definitions["Context"] = "Contexte";
 $definitions["Controls"] = "Contrôles";
 $definitions["Conversation"] = "Conversation";
 $definitions["Conversations participated in"] = "Conversations auxquelles il/elle a participé";
@@ -129,10 +133,13 @@ $definitions["Delete Member"] = "Supprimer Membre";
 $definitions["<strong>Delete this member's posts.</strong> All of this member's posts will be marked as deleted, but will be able to be restored manually."] = "<strong>Supprimer les messages de ce membre.</strong> Tous les messages de ce membre seront marqués comme supprimé, mais il sera possible de les restaurer manuellement.";
 $definitions["Delete"] = "Supprimer";
 $definitions["Deleted %s by %s"] = "Supprimé %s par %s";
+$definitions["Deny"] = "Interdire";
 $definitions["Disable"] = "Désactiver";
 $definitions["Discard"] = "Ignorer";
+$definitions["Don't allow other users to see when I am online"] = "Ne pas autoriser les autres utilisateurs à me voir quand je suis en ligne";
 $definitions["Don't have an account? <a href='%s' class='link-join'>Sign up!</a>"] = "Pas encore inscrit&thinsp;? <a href='%s' class='link-join'>Inscrivez-vous&thinsp;!</a>";
 $definitions["Don't repeat"] = "Ne pas répéter";
+$definitions["Don't require users to confirm their account"] = "Ne pas forcer les utilisateurs à confirmer leur compte";
 
 $definitions["Edit Channel"] = "Éditer la Catégorie";
 $definitions["Edit Group"] = "Éditer le Groupe";
@@ -142,7 +149,10 @@ $definitions["Edit"] = "Éditer";
 $definitions["Edited %s by %s"] = "Édité %s par %s";
 $definitions["Editing permissions"] = "Édition des permissions";
 $definitions["Email me when I'm added to a private conversation"] = "M'envoyer un email lorsque je suis ajouté à une conversation privée";
-$definitions["Email me when someone posts in a conversation I have starred"] = "M'envoyer un email lorsque quelqu'un répond à une conversation que je suis";
+$definitions["Email me when someone mentions me in a post"] = "M'envoyer un email lorsque quelqu'un me mentionne dans une conversation";
+$definitions["Email me when someone posts in a channel I have followed"] = "M'envoyer un email lorsque quelqu'un poste dans une catégorie que je suis";
+$definitions["Email me when someone posts in a conversation I have followed"] = "M'envoyer un email lorsque quelqu'un répond à une conversation que je suis";
+$definitions["Email me when there is a new post by a member I have followed"] = "M'envoyer un email lorsque qu'un membre que je suis poste un message";
 $definitions["Email"] = "Email";
 $definitions["Enable"] = "Activer";
 $definitions["Enabled"] = "Activé";
@@ -154,16 +164,19 @@ $definitions["Everyone"] = "Tout le monde";
 $definitions["Fatal Error"] = "Oh oh&thinsp;! Une erreur fatale...";
 $definitions["Feed"] = "Flux";
 $definitions["Filter by name or group..."] = "Filtrer par nom ou par groupe...";
-$definitions["Filter conversations..."] = "Filtrer les conversations...";
 $definitions["Find this post"] = "Trouver ce post";
 $definitions["First posted"] = "Premier post";
+$definitions["Follow"] = "Suivre";
 $definitions["Follow to receive notifications"] = "Suivre pour recevoir des notifications";
+$definitions["Following"] = "Following (à traduire)";
 $definitions["For %s seconds"] = "Pendant %s secondes";
 $definitions["Forever"] = "Toujours";
 $definitions["Forgot?"] = "Oublié&thinsp;?";
 $definitions["Forgot Password"] = "Mot de passe oublié";
+$definitions["Forum"] = "Forum";
 $definitions["Forum header"] = "En-tête du Forum";
 $definitions["Forum language"] = "Langue du Forum";
+$definitions["Forum privacy"] = "Forum privacy (à traduire)";
 $definitions["Forum Settings"] = "Paramètres du Forum";
 $definitions["Forum Statistics"] = "Statistiques du Forum";
 $definitions["Forum title"] = "Titre du Forum";
@@ -184,14 +197,18 @@ $definitions["group.Moderator.plural"] = "Modérateurs";
 $definitions["group.suspended"] = "Suspendu"; // plural ?
 $definitions["Groups can be used to categorize members and give them certain privileges."] = "Les Groupes peuvent être utilisés pour classer les membres et leur assigner certain droits.";
 $definitions["Groups"] = "Groupes";
+$definitions["Guests can view the:"] = "Invités peuvent voir les :"; // à vérifier
 
 $definitions["Header"] = "En-tête";
 $definitions["Header color"] = "Couleur d'en-tête";
+$definitions["Heads Up!"] = "Heads Up! (à traduire)";
+$definitions["hidden"] = "caché";
 $definitions["Hide"] = "Cacher";
 $definitions["Home page"] = "Accueil";
 $definitions["HTML is allowed."] = "HTML autorisé.";
 
 $definitions["If you run into any other problems or just want some help with the installation, feel free to ask for assistance at the <a href='%s'>esoTalk support forum</a>."] = "Si vous rencontrez d'autres problèmes ou si vous cherchez juste un peu d'aide pour l'installation, n'hésitez pas à aller voir le <a href='%s'>forum de support esoTalk</a>.";
+$definitions["Ignore conversation"] = "Ignorer la conversation";
 $definitions["Install esoTalk"] = "Installer esoTalk";
 $definitions["Install My Forum"] = "Installer Mon Forum";
 $definitions["Installed Languages"] = "Langues installées";
@@ -202,8 +219,6 @@ $definitions["Installed skins"] = "Thèmes installés";
 $definitions["is %s"] = "est %s";
 
 $definitions["Joined"] = "Inscrit";
-$definitions["Jump to last"] = "Aller au dernier";
-$definitions["Jump to unread"] = "Aller aux non-lus";
 $definitions["just now"] = "à l'instant";
 
 $definitions["Keep me logged in"] = "Se souvenir de moi"; // me garder connecté ? connexion automatique ?
@@ -217,6 +232,7 @@ $definitions["label.sticky"] = "Post-it";
 $definitions["Labels"] = "Étiquettes";
 $definitions["Last active"] = "Dernière activité";
 $definitions["Last active %s"] = "Dernière activité %s";
+$definitions["Latest"] = "Récents";
 $definitions["Latest News"] = "Dernières nouvelles";
 $definitions["Loading..."] = "Chargement...";
 $definitions["Lock"] = "Verrouiller";
@@ -224,10 +240,12 @@ $definitions["Log In"] = "Se connecter";
 $definitions["Log Out"] = "Se déconnecter";
 
 $definitions["Make member and online list visible to:"] = "Rendre la liste des membres et ceux en ligne visible à&thinsp;:";
+$definitions["Manage Channels"] = "Gérer les Catégories";
 $definitions["Manage Groups"] = "Gérer les Groupes";
 $definitions["Manage Languages"] = "Gérer les Langues";
 $definitions["Manage your forum's channels (categories)"] = "Gérer les catégories du forum";
 $definitions["Mark as read"] = "Marquer comme lu";
+$definitions["Mark as unread"] = "Mark comme non lu";
 $definitions["Mark all as read"] = "Marquer tout comme lu";
 $definitions["Mark listed as read"] = "Marquer la sélection comme lu";
 $definitions["Maximum size of %s. %s."] = "Taille maximale de %s. %s.";
@@ -235,9 +253,11 @@ $definitions["Member groups"] = "Groupes";
 $definitions["Member list"] = "Liste des membres";
 $definitions["Member List"] = "Liste des Membres";
 $definitions["Member privacy"] = "Vie privée des membres";
-$definitions["Members Allowed to View this Conversation"] = "Membres Autorisés à Voir cette Conversation";
-$definitions["Members Online"] = "Membres en Ligne";
 $definitions["Members"] = "Membres";
+$definitions["Members Allowed to View this Conversation"] = "Membres Autorisés à Voir cette Conversation";
+$definitions["Members Awaiting Approval"] = "Membres en attente d'approbation";
+$definitions["Members Online"] = "Membres en Ligne";
+$definitions["Members who are part of this group can be listed by searching for the group name in the member list."] = "Members who are part of this group can be listed by searching for the group name in the member list.";
 $definitions["Mobile skin"] = "Thème mobile";
 $definitions["Moderate"] = "Modérer";
 $definitions["<strong>Move</strong> conversations to the following channel:"] = "<strong>Déplacer</strong> les conversations vers la catégorie&thinsp;:";
@@ -269,8 +289,10 @@ $definitions["Notifications"] = "Notifications";
 $definitions["Now"] = "À l'instant";
 
 $definitions["OK"] = "OK";
+$definitions["Older"] = "Older (à traduire)";
 $definitions["Online"] = "En ligne";
 $definitions["online"] = "en ligne";
+$definitions["Only allow members of this group to see who else is in it"] = "Autoriser seuls les membres de ce groupe à voir qui d'autre est membre de ce groupe";
 $definitions["Open registration"] = "Inscriptions ouvertes";
 $definitions["optional"] = "optionnel";
 $definitions["Order By:"] = "Trier par&thinsp:";
@@ -283,8 +305,10 @@ $definitions["Plugins"] = "Plugins";
 $definitions["Post a Reply"] = "Répondre";
 $definitions["Post count"] = "Nombre de posts";
 $definitions["Posts"] = "Posts";
+$definitions["Powered by"] = "Powered by (à traduire)";
 $definitions["Preview"] = "Aperçu";
 $definitions["Previous"] = "Précédents";
+$definitions["Primary color"] = "Couleur dominante";
 
 $definitions["Quote"] = "Citer";
 $definitions["quote"] = "citer";
@@ -294,10 +318,12 @@ $definitions["Recent posts"] = "Posts récents";
 $definitions["Recover Password"] = "Réinitialiser le mot de passe";
 $definitions["Registered members"] = "Membres enregistrés";
 $definitions["Registration"] = "Inscription";
+$definitions["Registration Closed"] = "Inscriptions Fermées";
 $definitions["Remove avatar"] = "Supprimer l'avatar";
 $definitions["Rename Member"] = "Renommer un Membre";
 $definitions["Reply"] = "Répondre";
 $definitions["Report a bug"] = "Soumettre un bug";
+$definitions["Require administrator approval"] = "Forcer l'approbation d'un administrateur";
 $definitions["Require users to confirm their email address"] = "Forcer la confirmation des adresses emails";
 $definitions["Restore"] = "Restaurer";
 $definitions["restore"] = "restaurer";
@@ -312,12 +338,14 @@ $definitions["See the private conversations I've had with %s"] = "Voir les conve
 $definitions["Set a New Password"] = "Mettre un nouveau mot de passe";
 $definitions["Settings"] = "Paramètres";
 $definitions["Show an image in the header"] = "Afficher une image dans l'en-tête";
+$definitions["Show in context"] = "Voir dans le contexte";
 $definitions["Show matching posts"] = "Voir les posts correspondants";
 $definitions["Show the channel list by default"] = "Voir la liste des catégories par défaut";
 $definitions["Show the conversation list by default"] = "Voir la liste des conversations par défaut";
 $definitions["Show the forum title in the header"] = "Afficher le titre du forum dans l'en-tête";
 $definitions["Sign Up"] = "S'inscrire";
 $definitions["Skins"] = "Thèmes";
+$definitions["Sort By"] = "Trier par";
 $definitions["Specify Setup Information"] = "Renseigner les informations de configuration";
 $definitions["Star to receive notifications"] = "Suivre pour recevoir des notifications";
 $definitions["Starred"] = "Suivi";
@@ -340,12 +368,14 @@ $definitions["Sticky"] = "Post-it";
 $definitions["Subscribe"] = "S'abonner";
 $definitions["Subscribed"] = "Abonné";
 $definitions["Subscription"] = "Abonnement";
+$definitions["Success!"] = "Succès !";
 $definitions["Suspend member"] = "Suspendre le membre";
 $definitions["Suspend members."] = "Suspendre les membres.";
 $definitions["Suspend"] = "Suspendre";
 
 $definitions["To get started with your forum, you might like to:"] = "Pour commencer sur votre forum, vous pourriez&thinsp;:"; // :/
 
+$definitions["Unapproved"] = "Unapproved (à traduire)";
 $definitions["Unhide"] = "Décacher"; // révéler ?
 $definitions["Uninstall"] = "Désinstaller";
 $definitions["Unlock"] = "Déverrouiller";
@@ -373,6 +403,7 @@ $definitions["View more"] = "Voir plus";
 $definitions["View your profile"] = "Voir votre profile";
 $definitions["View"] = "Voir";
 $definitions["Viewing: %s"] = "En train de lire : %s";
+$definitions["Viewing %s"] = "En train de lire %s";
 $definitions["viewingPosts"] = "<b>%s-%s</b> sur %s posts";
 
 $definitions["Warning"] = "Oh oh, quelque chose ne va pas&thinsp;!";
@@ -387,15 +418,17 @@ $definitions["Your current password"] = "Mot de passe actuel";
 
 // Messages.
 $definitions["message.404"] = "Et zut - la page que vous cherchez ne peut être trouvée&thinsp;! Essayez de revenir à la page précédente et de cliquer sur un autre lien. Ou autre chose.";
+$definitions["message.accountNotYetApproved"] = "L'administrateur n'a pas encore approuvé votre compte. La patience est de vertue !";
 $definitions["message.ajaxDisconnected"] = "Impossible de communiquer avec le serveur. Patientez quelques secondes et <a href='javascript:jQuery.ETAjax.resumeAfterDisconnection()'>essayez à nouveau</a>, ou <a href='' onclick='window.location.reload();return false'>rafraîchissez la page</a>.";
 $definitions["message.ajaxRequestPending"] = "Hey ! On bosse encore sur un truc pour vous&thinsp;! Si vous quittez cette page vous pourriez perdre des changements récents que vous avez fait. Attendez donc un peu, ok&thinsp;?";
 $definitions["message.avatarError"] = "Il y a eut un problème durant l'envoi de votre avatar. Assurez-vous d'utiliser un type d'image valide (.jpg, .png, ou .gif) et que le fichier n'est pas trop volumineux.";
 $definitions["message.cannotDeleteLastChannel"] = "Eh, attendez un peu, vous ne pouvez pas supprimer la dernière catégorie&thinsp;! Où vont aller vos conversations sinon&thinsp;? Ceci n'est pas possible.";
+$definitions["message.cannotEditSinceReply"] = "Vous ne pouvez pas éditer votre message car quelqu'un a répondu depuis que vous l'avez posté.";
 $definitions["message.changesSaved"] = "Les changements ont été effectués.";
 $definitions["message.channelsHelp"] = "Les Catégories sont utilisées pour classer les conversations. Vous pouvez créer autant de catégories que vous le souhaitez, les réorganiser, et les imbriquer en les déplaçant ci dessous.";
 $definitions["message.channelSlugTaken"] = "Ce slug est déjà utilisé par une autre catégorie.";
 $definitions["message.confirmDelete"] = "Vous êtes bien sûr de vouloir supprimer&thinsp;? Sérieusement, vous ne pourrez pas le récupérer.";
-$definitions["message.confirmDiscardReply"] = "Vous n'avez pas sauvegardé votre réponse en brouillon. Voulez-vous l'ignorer&thinsp;?";
+$definitions["message.confirmDiscardPost"] = "Vous n'avez pas sauvegardé votre post en brouillon. Voulez-vous l'ignorer&nbsp;?";
 $definitions["message.confirmEmail"] = "Avant de commencer à utiliser votre nouveau compte, vous devez confirmer votre adresse email. Dans les deux prochaines minutes, vous devriez recevoir un email contenant un lien d'activation.";
 $definitions["message.confirmLeave"] = "Woah, vous n'avez pas sauvegardé le message que vous êtes en train d'éditer&thinsp;! Si vous quittez la page, vous perdrez toutes vos modifications. C'est bon, vous êtes sûr&thinsp;?";
 $definitions["message.connectionError"] = "esoTalk n'a pu se connecter au serveur MySQL. L'erreur est&thinsp;:<br/>%s";
@@ -416,8 +449,6 @@ $definitions["message.esoTalkUpdateAvailableHelp"] = "Il est recommandé de touj
 $definitions["message.esoTalkUpToDate"] = "Cette version de esoTalk est à jour.";
 $definitions["message.esoTalkUpToDateHelp"] = "Je suis un pauvre étudiant d'université qui a passé des centaines d'heures de développement sur esoTalk. Si vous l'aimez, pensez à faire un <a href='%s' target='_blank'>don</a> s'il vous plaît.";
 $definitions["message.fatalError"] = "<p>esoTalk a rencontré une méchante erreur qui rend impossible de faire ce que vous tentez de faire. Mais ne vous en faites pas - <strong>voici quelques trucs que vous pouvez essayer</strong>&thinsp;:</p>\n<ul>\n<li>Allez dehors, promenez le chien, prenez un café... et puis <strong><a href='%1\$s'>réessayez</a></strong>!</li>\n<li>Si vous êtes administrateur du forum, vous pouvez aller faire un tour sur le <a href='%2\$s'>site de esoTalk</a></strong>.</li>\n<li>Frapper l'ordinateur - &Ccedil;a marche parfois pour moi.</li>\n</ul>";
-$definitions["message.fatalErrorInstaller"] = "<p>esoTalk a rencontré une méchante erreur qui rend impossible de faire ce que vous tentez de faire. Mais ne vous en faites pas - <strong>voici quelques trucs que vous pouvez essayer</strong>&thinsp;:</p>\n<ul>\n<li><p><strong>Essayez à nouveau.</strong> Tout le monde fait des erreurs - peut-être que l'ordinateur en a fait une cette fois&thinsp;!</p></li>\n<li><p><strong>Revenez en arrière et vérifiez les paramètres.</strong> En particulier, vérifiez les informations de la base de données.</p></li>\n<li><p><strong>Demandez de l'aide.</strong> Allez sur <a href='%s'>le forum de esoTalk/a> et cherchez si quelqu'un a le même problème. Sinon lancez une conversation incluant les détails ci-dessous.</p></li>\n</ul>";
-$definitions["message.fatalErrorUpgrader"] = "<p>esoTalk a rencontré une méchante erreur qui rend impossible de faire ce que vous tentez de faire. Mais ne vous en faites pas - <strong>voici quelques trucs que vous pouvez essayer</strong> :</p>\n<ul>\n<li><p><strong>Essayez à nouveau.</strong> Tout le monde fait des erreurs - peut-être que l'ordinateur en a fait une cette fois&thinsp;!</p></li>\n<li><p><strong>Demandez de l'aide.</strong> Allez sur <a href='%s'>le forum de esoTalk/a> et recherche si quelqu'un a le même problème. Sinon lancez une conversation incluant les détails ci-dessous.</p></li>\n</ul>";
 $definitions["message.fileUploadFailed"] = "Quelque chose a mal tourné et le fichier que vous avez sélectionné ne peut être envoyé. Il est peut être trop volumineux ou dans un format invalide&thinsp;?";
 $definitions["message.fileUploadFailedMove"] = "Le fichier que vous avez envoyé ne peut être remis à destination. Contactez l'administrateur du forum.";
 $definitions["message.fileUploadNotImage"] = "Le fichier que vous tentez d'envoyer n'est pas dans un format d'image accepté.";
@@ -428,11 +459,11 @@ $definitions["message.gambitsHelp"] = "Les Gambits sont des phrases qui décrive
 $definitions["message.gdNotEnabledWarning"] = "L'<strong>extension GD</strong> n'est pas activée.<br/><small>C'est obligatoire pour enregistrer les avatars. Demandez à votre hébergeur ou administrateur de l'installer/activer.</small>";
 $definitions["message.greaterMySQLVersionRequired"] = "<strong>MySQL 4 ou supérieur</strong> doit être installé et <a href='http://php.net/manual/en/mysql.installation.php' target='_blank'>l'extension MySQL activée dans PHP</a>.<br/><small>Installez-le ou demandez à votre hébergeur/administreur de le faire.</small>";
 $definitions["message.greaterPHPVersionRequired"] = "<strong>PHP 5.0.0 ou supérieur</strong> doit être installé pour faire tourner esoTalk.<br/><small>Mettez à jour votre installation PHP ou faites la demande auprès de votre hébergeur ou administrateur.</small>";
+$definitions["message.groupsHelp"] = "Les groupes sont utilisés pour catégoriser les membres sur votre forum. Vous pouvez créer autant de groupes que vous voulez";
 $definitions["message.incorrectLogin"] = "Indentifiants invalides.";
 $definitions["message.incorrectPassword"] = "Mot de passe actuel invalide.";
 $definitions["message.installerAdminHelp"] = "esoTalk utilisera ces informations pour configurer le compte administrateur du forum.";
 $definitions["message.installerFilesNotWritable"] = "esoTalk ne peut écrire dans les fichiers/dossiers suivants&thinsp;: <strong>%s</strong>.<br/><small>Pour résoudre le problème, vous devez utiliser un client FTP et <strong>chmod 777</strong> sur ceux ci.</small>";
-$definitions["message.installerMySQLHelp"] = "esoTalk nécéssite un accès à MySQL pour stocker toutes les données du forum (conversations et messages). Si vous n'êtes pas certains de ces détails, vous devez demander à votre hébergeur.";
 $definitions["message.installerWelcome"] = "<p>Bienvenue dans l'installeur esoTalk&thinsp;! On a besoin de certaines informations pour configurer le forum.</p>\n<p>Si vous avez besoin d'aide, rendez-vous sur le <a href='%s'>forum de support d'esoTalk</a>.</p>";
 $definitions["message.invalidChannel"] = "Vous avez selectionné une catégorie incorrecte&thinsp;!";
 $definitions["message.invalidEmail"] = "Il semble que cet email n'est pas valide...";
@@ -448,6 +479,7 @@ $definitions["message.memberNoPermissionView"] = "Ce membre ne peut pas être aj
 $definitions["message.nameTaken"] = "Le nom entré est pris ou est un mot réservé.";
 $definitions["message.newSearchResults"] = "Il s'est passé des choses depuis votre recherche. <a href='%s'>Rafraîchir</a>";
 $definitions["message.noActivity"] = "%s n'a encore rien fait sur ce forum&thinsp;!";
+$definitions["message.noChannels"] = "Aucune catégorie visible.";
 $definitions["message.noMembersOnline"] = "Aucun membre en ligne actuellement.";
 $definitions["message.noNotifications"] = "Vous n'avez pas de notification.";
 $definitions["message.noPermission"] = "Boo&thinsp;! Vous n'avez pas la permission de faire cette action.";
@@ -483,23 +515,32 @@ $definitions["message.suspendMemberHelp"] = "Suspendre %s les empèchera de rép
 $definitions["message.tablePrefixConflict"] = "L'installeur a detecté une autre installation de EsoTalk sur la même base de données avec le même préfixe.<br/>Pour écraser cette installation de esoTalk, cliquez sur 'Installer mon forum' encore une fois. <strong>Toutes les données seront perdues.</strong><br/>Si vous souhaitez créer une installation en parallèle, <strong>changez le prefix des tables</strong>.";
 $definitions["message.unsuspendMemberHelp"] = "Supprimer la suspension de %s les autorisera à participer aux conversations du forum à nouveau.";
 $definitions["message.upgradeSuccessful"] = "esoTalk a été mis à jour avec succès.";
+$definitions["message.waitForApproval"] = "Avant de commencer à utiliser votre nouveau compte, un administrateur doit l'approuver. Nous vous enverrons un email quand vous serez accepté&nbsp;!";
 $definitions["message.waitToReply"] = "Vous devez attendre au moins %s secondes entre chaque message. Respirez un grand coup et réessayez.";
 $definitions["message.waitToSearch"] = "Hop hop hop, on se calme&thinsp;! On dirait que vous tentez un peu trop de recherches. Attendez %s secondes et réessayez.";
 
 
 // Emails.
-$definitions["email.confirmEmail.body"] = "Quelqu'un (sûrement vous&thinsp;!) s'est inscrit sur le forum '%1\$s' avec cette adresse email.\n\nSi c'est bien vous, visitez le lien suivant et votre compte sera activé&thinsp;:\n%2\$s";
+$definitions["email.header"] = "<p>Salut %s&thinsp;!</p>";
+$definitions["email.footer"] = "<p>(Si vous ne voulez plus recevoir ce genre d'emails, vous pouvez <a href='%s'>changez vos préférences de notification</a>.)</p>";
+
 $definitions["email.confirmEmail.subject"] = "%1\$s, confirmation d'adresse email";
-$definitions["email.footer"] = "\n\n(Si vous ne souhaitez plus recevoir ce type d'email, <a href='%s'>cliquez ici</a>.)";
-$definitions["email.forgotPassword.body"] = "Quelqu'un (avec un peu de chance c'est vous&thinsp;!) a soumit une requête de mot de passe oublié pour votre compte sur le forum '%1\$s'. Si vous ne souhaitez pas changer de mot de passe, ignorez simplement cet email et rien ne changera.\n\nCependant, si vous avez vraiment oublié votre mot de passe et que vous souhaitez en choisir un nouveau, rendez-vous ici&thinsp;:\n%2\$s";
+$definitions["email.confirmEmail.body"] = "Quelqu'un (sûrement vous&thinsp;!) s'est inscrit sur le forum '%1\$s' avec cette adresse email.\n\nSi c'est bien vous, visitez le lien suivant et votre compte sera activé&thinsp;:\n%2\$s";
+
+$definitions["email.approved.subject"] = "%1\$s, votre compte a été approuvé";
+$definitions["email.approved.body"] = "<p>Votre compte sur %1\$s a été approuvé.</p><p>Visitez le lien suivant pour vous connecter et commencer à discuter&nbsp;:<br>%2\$s</p>";
+
 $definitions["email.forgotPassword.subject"] = "Mot de passe oublié, %1\$s&thinsp;?";
-$definitions["email.header"] = "Salut %s&thinsp;!\n\n";
-$definitions["email.mention.body"] = "%1\$s parle de vous dans un message dans la conversation '%2\$s'.\n\nPour voir le message&thinsp;:\n%3\$s";
-$definitions["email.mention.subject"] = "%1\$s parle de vous";
-$definitions["email.privateAdd.body"] = "Vous avez été ajouté à une conversation privée intitulée '%1\$s'.\n\nPour voir cette conversation, suivez le lien suivant&thinsp;:\n%2\$s";
-$definitions["email.privateAdd.subject"] = "Vous avez été ajouté à une conversation privée";
+$definitions["email.forgotPassword.body"] = "Quelqu'un (avec un peu de chance c'est vous&thinsp;!) a soumit une requête de mot de passe oublié pour votre compte sur le forum '%1\$s'. Si vous ne souhaitez pas changer de mot de passe, ignorez simplement cet email et rien ne changera.\n\nCependant, si vous avez vraiment oublié votre mot de passe et que vous souhaitez en choisir un nouveau, rendez-vous ici&thinsp;:\n%2\$s";
+
+$definitions["email.mention.subject"] = "[Mentionné par %1\$s] %2\$s";
+$definitions["email.mention.body"] = "<p><strong>%1\$s</strong> vous a mentionné dans un post dans la conversation <strong>%2\$s</strong>.</p><hr>%3\$s<hr><p>Pour voir le post, cliquez sur le lien suivant&nbsp;:<br>%4\$s</p>";
+
+$definitions["email.privateAdd.subject"] = "[Privée] %1\$s";
+$definitions["email.privateAdd.body"] = "<p>Vous avez été ajouté à une conversation privée intitulée <strong>'%1\$s'</strong>.<p><hr/>%2\$s<hr/><p>Pour voir cette conversation, suivez le lien suivant&thinsp;:<br/>%3\$s</p>";
+
+$definitions["email.post.subject"] = "[Nouvelle réponse] %1\$s";
 $definitions["email.post.body"] = "<p><strong>%1\$s</strong> a répondu à la conversation que vous suivez&thinsp;: <strong>%2\$s</strong></p><hr>%3\$s<hr><p>Pour voir la nouvelle activité, suivez le lien suivant&thinsp;:<br>%4\$s</p>";
-$definitions["email.post.subject"] = "Il y a une nouvelle réponse pour '%1\$s'";
 
 
 // Translating the gambit system can be quite complex, but we'll do our best to get you through it. :)
@@ -521,10 +562,11 @@ $definitions["gambit.private"] = "private";
 $definitions["gambit.random"] = "random";
 $definitions["gambit.reverse"] = "reverse";
 $definitions["gambit.starred"] = "followed";
-$definitions["gambit.muted"] = "muted";
+$definitions["gambit.ignored"] = "ignored";
 $definitions["gambit.sticky"] = "sticky";
 $definitions["gambit.unread"] = "unread";
 $definitions["gambit.limit:"] = "limit:";
+$definitions["gambit.title:"] = "title:";
 
 // Aliases
 // These are gambits which tell the gambit system to use another gambit.
