@@ -9,4 +9,4 @@ $definitions["Answered"] = "Répondu";
 $definitions["This post answered my question"] = "Ce post répond à ma question";
 $definitions["Answered by %s"] = "Répondu par %s";
 $definitions["See post in context"] = "Voir le contexte du post";
-$definitions["Remove answer"] = "Enlever réponse";
+$definitions["Remove answer"] = "Supprimer la réponse";
