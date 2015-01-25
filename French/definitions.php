@@ -2,7 +2,7 @@
 // Copyright 2011 Toby Zerner, Simon Zerner
 // This file is part of esoTalk. Please see the included license file for usage information.
 
-ET::$languageInfo["Francais"] = array(
+ET::$languageInfo["French"] = array(
 	"locale" => "fr-FR",
 	"name" => "Français",
 	"description" => "Un pack de langue Français.",
@@ -95,7 +95,7 @@ $definitions["Change avatar"] = "Changer l'avatar";
 $definitions["Change Channel"] = "Changer la Catégorie";
 $definitions["Change channel"] = "Changer la catégorie";
 $definitions["Change username"] = "Changer l'identifiant";
-$definitions["Change Password or Email"] = "Changer le Mot de Passe ou l'Email";
+$definitions["Change Password or Email"] = "Changer de mot de passe ou d'email";
 $definitions["Change Password"] = "Changer de Mot de Passe";
 $definitions["Change password"] = "Changer de mot de passe";
 $definitions["Change permissions"] = "Changer les permissions";
@@ -176,8 +176,8 @@ $definitions["Forgot Password"] = "Mot de passe oublié";
 $definitions["Forum"] = "Forum";
 $definitions["Forum header"] = "En-tête du Forum";
 $definitions["Forum language"] = "Langue du Forum";
-$definitions["Forum privacy"] = "Forum privacy (à traduire)";
-$definitions["Forum Settings"] = "Paramètres du Forum";
+$definitions["Forum privacy"] = "Confidentialité";
+$definitions["Forum Settings"] = "Param. du forum";
 $definitions["Forum Statistics"] = "Statistiques du Forum";
 $definitions["Forum title"] = "Titre du Forum";
 $definitions["forumDescription"] = "%s est un forum à propos de %s, et %s.";
@@ -197,7 +197,7 @@ $definitions["group.Moderator.plural"] = "Modérateurs";
 $definitions["group.suspended"] = "Suspendu"; // plural ?
 $definitions["Groups can be used to categorize members and give them certain privileges."] = "Les Groupes peuvent être utilisés pour classer les membres et leur assigner certain droits.";
 $definitions["Groups"] = "Groupes";
-$definitions["Guests can view the:"] = "Invités peuvent voir les :"; // à vérifier
+$definitions["Guests can view the:"] = "Les non-inscrits peuvent voir :";
 
 $definitions["Header"] = "En-tête";
 $definitions["Header color"] = "Couleur d'en-tête";
@@ -236,13 +236,13 @@ $definitions["Latest"] = "Récents";
 $definitions["Latest News"] = "Dernières nouvelles";
 $definitions["Loading..."] = "Chargement...";
 $definitions["Lock"] = "Verrouiller";
-$definitions["Log In"] = "Se connecter";
-$definitions["Log Out"] = "Se déconnecter";
+$definitions["Log In"] = "Connexion";
+$definitions["Log Out"] = "Déconnexion";
 
 $definitions["Make member and online list visible to:"] = "Rendre la liste des membres et ceux en ligne visible à&thinsp;:";
-$definitions["Manage Channels"] = "Gérer les Catégories";
-$definitions["Manage Groups"] = "Gérer les Groupes";
-$definitions["Manage Languages"] = "Gérer les Langues";
+$definitions["Manage Channels"] = "Gérer les catégories";
+$definitions["Manage Groups"] = "Gérer les groupes";
+$definitions["Manage Languages"] = "Gérer les langues";
 $definitions["Manage your forum's channels (categories)"] = "Gérer les catégories du forum";
 $definitions["Mark as read"] = "Marquer comme lu";
 $definitions["Mark as unread"] = "Mark comme non lu";
@@ -273,7 +273,8 @@ $definitions["MySQL version"] = "Version de MySQL";
 $definitions["Name"] = "Nom";
 $definitions["never"] = "jamais";
 $definitions["%s new"] = "%s nouveau(x)";
-$definitions["New conversation"] = "Nouvelle conversation";
+$definitions["New conversation"] = "Nouveau post";
+$definitions["New Conversation"] = "Nouveau post";
 $definitions["New conversations in the past week"] = "Nouvelles conversations durant la dernière semaine";
 $definitions["New email"] = "Nouvel email";
 $definitions["New members in the past week"] = "Nouveaux membres durant la dernière semaine";
