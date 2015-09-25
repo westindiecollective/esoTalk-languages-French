@@ -400,7 +400,7 @@ $definitions["Username or Email"] = "Nom d'utilisateur ou Email";
 $definitions["View %s's profile"] = "Voir le profil de %s";
 $definitions["View all notifications"] = "Voir les notifications";
 $definitions["View more"] = "Voir plus";
-$definitions["View your profile"] = "Voir votre profile";
+$definitions["View your profile"] = "Voir votre profil";
 $definitions["View"] = "Voir";
 $definitions["Viewing: %s"] = "En train de lire : %s";
 $definitions["Viewing %s"] = "En train de lire %s";
@@ -472,7 +472,7 @@ $definitions["message.javascriptRequired"] = "Cette page nécessite JavaScript p
 $definitions["message.languageUninstalled"] = "Le pack de langue a été installé.";
 $definitions["message.locked"] = "Hm, Il semble que cette conversation soit <strong>vérouillée</strong>, vous ne pouvez donc pas y répondre.";
 $definitions["message.loginToParticipate"] = "Pour démarrer une conversation ou répondre à des message, connectez-vous.";
-$definitions["message.logInToReply"] = "<a href='%1\$s' class='link-login'>Se connecter</a> ou <a href='%2\$s' class='link-join'>S'incrire</a> pour répondre&thinsp;!";
+$definitions["message.logInToReply"] = "<a href='%1\$s' class='link-login'>Se connecter</a> ou <a href='%2\$s' class='link-join'>S'inscrire</a> pour répondre&thinsp;!";
 $definitions["message.logInToSeeAllConversations"] = "<a href='".URL("user/login")."' class='link-login'>Se connecter</a> pour afficher certaines catégories qui peuvent être cachées aux invités.";
 $definitions["message.memberNotFound"] = "Hm, il n'y a personne de ce nom là ici.";
 $definitions["message.memberNoPermissionView"] = "Ce membre ne peut pas être ajouté car il n'a pas la permission de voir la catégorie dans laquelle se trouve cette conversation.";
